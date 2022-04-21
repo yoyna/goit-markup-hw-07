@@ -16,7 +16,7 @@
     align-items: center;
 }
 
-.menu{
+.nav-list{
     display: flex;
     align-items: center;
 }
@@ -29,7 +29,7 @@
     color: var(--primary-white-color)
 }
 
-.nav-link{
+.nav-list__link{
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 14px;
@@ -46,7 +46,7 @@
     }
 }
 
-.nav-list-item:not(:last-child) {
+.nav-list__item:not(:last-child) {
     margin-right: 50px;
 }
 
@@ -88,7 +88,7 @@
     }
 }
 
-.contacts-icon {
+.contacts__icon {
     fill: currentColor;
     margin-right: 10px;
 }
